@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleSize">22sp</dimen>
+    <dimen name="extraTitleSize">16sp</dimen>
+    <dimen name="profileNameSize">22sp</dimen>
+    <dimen name="profilePhotoSize">100dp</dimen>
+</resources>

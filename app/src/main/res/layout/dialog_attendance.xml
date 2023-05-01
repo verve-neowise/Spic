@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/placeholder"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="@string/mike_wazovski"
+            android:textColor="@color/dark"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/circleImageView"
+            app:layout_constraintStart_toEndOf="@+id/circleImageView"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F0F0F0"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginRight="-20dp"/>
+    <RadioGroup
+        android:id="@+id/behavior_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_good"
+            android:drawableStart="@drawable/ic_good"
+            android:text="@string/good"
+            android:textSize="15sp"
+            android:textColor="@color/dark"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/montserrat_medium"
+            />
+
+        <RadioButton
+            android:id="@+id/bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:drawableLeft="@drawable/ic_bad"
+            android:drawableStart="@drawable/ic_bad"
+            android:textColor="@color/dark"
+            android:text="@string/bad"
+            android:textSize="15sp"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat_medium"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/state_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/attended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_attended"
+            android:drawableStart="@drawable/ic_attended"
+            android:text="@string/attended"
+            android:textSize="15sp"
+            android:textColor="@color/dark"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:fontFamily="@font/montserrat_medium"
+            />
+
+        <RadioButton
+            android:id="@+id/late"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_late"
+            android:drawableStart="@drawable/ic_late"
+            android:textColor="@color/dark"
+            android:textSize="15sp"
+            android:text="@string/late"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat_medium"/>
+
+        <RadioButton
+            android:id="@+id/excused"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_excused"
+            android:drawableStart="@drawable/ic_excused"
+            android:textColor="@color/dark"
+            android:textSize="15sp"
+            android:text="@string/excused"
+            android:padding="15dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/montserrat_medium"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:text="@string/save"
+            style="@style/Theme.Spic.Widget.Button"/>
+    </LinearLayout>
+</LinearLayout>

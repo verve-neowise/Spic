@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="45dp"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:gravity="center"
+        android:textColor="@color/accent"
+        android:textSize="24sp"
+        android:fontFamily="@font/montserrat_semibold"/>
+
+    <EditText
+        android:id="@+id/usernameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:maxLines="1"
+        android:inputType="text"
+        style="@style/Theme.Spic.Widget.EditText"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        style="@style/Theme.Spic.Widget.EditText"
+        android:hint="@string/password"
+        />
+
+    <EditText
+        android:id="@+id/confirmPasswordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        style="@style/Theme.Spic.Widget.EditText"
+        android:hint="@string/confirm_password"
+        />
+
+    <EditText
+        android:id="@+id/nameEdit"
+        style="@style/Theme.Spic.Widget.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:hint="@string/your_name" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/sign_up"
+        style="@style/Theme.Spic.Widget.Button"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/back"
+        style="@style/Theme.Spic.Widget.Button.Secondary"/>
+</LinearLayout>

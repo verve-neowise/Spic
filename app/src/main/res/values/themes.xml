@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Spic" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Spic.Widget">
+
+    </style>
+
+    <style name="Theme.Spic.Widget.EditText">
+        <item name="android:background">@drawable/edit_background</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="Theme.Spic.Widget.EditText.Default" parent="Theme.Spic.Widget.EditText">
+
+    </style>
+
+    <style name="Theme.Spic.Widget.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="Theme.Spic.Widget.Button.Secondary" parent="Theme.Spic.Widget.Button">
+        <item name="android:background">@drawable/button_secondary_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Spic.Widget.Button.Stroke">
+        <item name="android:background">@drawable/button_stroke_background</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="Theme.Spic.Widget.Button.Bordless">
+        <item name="android:background">@color/white</item>
+
+        <item name="android:textColor">@color/dark</item>
+        <item name="fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+</resources>

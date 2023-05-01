@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bottom_sheet_background"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="@string/statistics"
+        android:textColor="@color/dark"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="@drawable/scores_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/scores"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:text="7.5"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:gravity="center"
+            android:text="Scores"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_good"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:padding="10dp"
+        android:text="14 Goods"
+        android:textColor="@color/dark"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout4" />
+
+    <TextView
+        android:id="@+id/bads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_bad"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:padding="10dp"
+        android:text="3 Bads"
+        android:textColor="@color/dark"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/goods"
+        app:layout_constraintTop_toBottomOf="@+id/goods" />
+    <LinearLayout
+        android:id="@id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/eventCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:text="20 events"
+            android:textColor="@color/dark"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+            tools:layout_editor_absoluteX="20dp" />
+        <TextView
+            android:id="@+id/workoutCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:layout_marginLeft="15sp"
+            android:text="20 Workouts"
+            android:textColor="@color/dark"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+            tools:layout_editor_absoluteX="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/attended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_attended"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:padding="10dp"
+        android:text="14 Attended"
+        android:textColor="@color/dark"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:id="@+id/excused"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_excused"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:padding="10dp"
+        android:text="5 Excused"
+        android:textColor="@color/dark"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/attended"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:id="@+id/late"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_late"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:padding="10dp"
+        android:text="3 Late"
+        android:textColor="@color/dark"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/excused"
+        tools:layout_editor_absoluteX="20dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

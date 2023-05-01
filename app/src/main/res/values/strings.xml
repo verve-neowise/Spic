@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Spic</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="temp_date">10.07.2007 (14)</string>
+    <string name="temp_team">Team U-8</string>
+    <string name="schedule">Schedule</string>
+    <string name="team">Team</string>
+    <string name="events">Events</string>
+    <string name="statistics">Statistics</string>
+    <string name="trainers">Coaches</string>
+    <string name="attended">Attended</string>
+    <string name="good">Good</string>
+    <string name="mike_wazovski">Mike Wazovski</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="birthDate">Birthday</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Email Address</string>
+    <string name="change_password">Change Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="add_event">Add</string>
+    <string name="players">Players</string>
+    <string name="add_player">Add Player</string>
+    <string name="edit_team">Edit Team</string>
+    <string name="bad">Bad</string>
+    <string name="late">Late</string>
+    <string name="excused">Excused</string>
+    <string name="cancel">Cancel</string>
+    <string name="eventDate">Event date</string>
+    <string name="description">Description</string>
+    <string name="startTime">Start time</string>
+    <string name="endTime">End Time</string>
+    <string name="attendance">Attendance</string>
+    <string name="teams">Teams</string>
+    <string name="sign_up">Sign up</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="your_name">Your name</string>
+    <string name="home_title">Home</string>
+    <string name="who_are_you">Who are you?</string>
+    <string name="player">Player</string>
+    <string name="trainer">Coach</string>
+    <string name="parent">Parent</string>
+    <string name="leader">Club Management</string>
+    <string name="scores">Scores</string>
+    <string name="goods">Goods</string>
+    <string name="bads">Bads</string>
+    <string name="team_code">Code</string>
+    <string name="activity">Activity</string>
+    <string name="parents">Parents</string>
+    <string name="all_users">All Users</string>
+    <string name="save">Save</string>
+    <string name="add_team">Add Team</string>
+    <string name="all_trainers">All Coaches</string>
+    <string name="undefined">Undefined</string>
+    <string name="gender">Gender</string>
+    <string name="contacts">Contacts</string>
+    <string name="new_team">New Team</string>
+    <string name="bind_team">Bind Team</string>
+    <string name="remove_team">Remove Team</string>
+    <string name="change_team">Change Team</string>
+    <string name="delete_team">Delete</string>
+    <string name="as_player">to Player</string>
+    <string name="as_trainer">to Coach</string>
+    <string name="as_parent">to Parent</string>
+    <string name="as_none">set Undefined</string>
+    <string name="children">All Children</string>
+    <string name="add_child">Add Child</string>
+    <string name="all_players">All Players</string>
+    <string name="update_contacts">Update contacts</string>
+    <string name="as_managment">to Club Management</string>
+    <string name="workouts">Workouts</string>
+    <string name="edit">Edit</string>
+    <string name="details">Details</string>
+    <string name="delete">Delete</string>
+    <string name="trainer_teams">Trainer Teams</string>
+    <string name="change_role">Change role</string>
+    <string name="delete_user">Delete User</string>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="eventTypes">
+        <item>All</item>
+        <item>Events</item>
+        <item>Workouts</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
